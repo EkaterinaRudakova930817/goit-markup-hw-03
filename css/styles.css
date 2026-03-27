@@ -30,7 +30,7 @@ img {
 }
 
 .container {
-    width: 1158px;
+    max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -126,7 +126,7 @@ img {
     background-color: #f4f4fd;
 }
 .team-content {
-    padding: 32px 0;
+    padding: 32px 16;
 }
 
 .portfolio-content {
@@ -143,6 +143,20 @@ img {
 .hero {
     padding: 188px 0;
 }
+.hero-title {
+    max-width: 496px;
+    margin: 0 auto 48px;
+    text-align: center;
+}
+
+.hero-btn {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+}
 
 .features {
     padding: 120px 0;
@@ -158,4 +172,58 @@ img {
 
 .footer {
     padding: 100px 0;
+}
+.section-title {
+    margin-bottom: 72px;
+}
+.footer .logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    background-color: #2e2f42;
+    padding: 188px 0;
+}
+
+.hero-title {
+    max-width: 496px;
+    margin: 0 auto 48px;
+    text-align: center;
+}
+
+.hero-btn {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+.team-content {
+    padding: 32px 16px;
+}
+
+.section-title {
+    margin-bottom: 72px;
+}
+
+.footer .logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.features-list {
+    margin-top: 0;
 }
